@@ -510,7 +510,6 @@ impl PartialOrd<Self> for TransactionReceipt {
 
 #[cfg(test)]
 #[cfg(not(feature = "celo"))]
-#[cfg(not(feature = "optimism"))]
 mod tests {
     use rlp::{Encodable, Rlp};
 

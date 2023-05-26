@@ -351,7 +351,6 @@ impl TransactionRequest {
 
 #[cfg(test)]
 #[cfg(not(feature = "celo"))]
-#[cfg(not(feature = "optimism"))]
 mod tests {
     use super::*;
     use crate::types::{transaction::eip2718::TypedTransaction, Bytes, NameOrAddress, Signature};
